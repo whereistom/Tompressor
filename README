@@ -9,13 +9,13 @@ Year: 2012
 This software comes with no assurance and may destroy your computer and electronic equipment.
 I am not responsible for any damage created by this software.
 
-Follow this instructions to make it work:
+Follow those instructions to make it work:
 
 
 Install Apache2 and create a SQLite database. Firefox has an extension to manage SQLite database which will help you in this task.
 Visit Firefox website to get the SQLite manager.
 
-This release contains an HTML index file and a little favicon icon which you can change as you like.
+This release contains an HTML index file and a little favicon icon which you can change to personalize your service.
 
 The cgi-bin folder contains the Python code that will make the magic happen.
 
