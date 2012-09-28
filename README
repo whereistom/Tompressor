@@ -20,7 +20,7 @@ This release contains an HTML index file and a little favicon icon which you can
 The cgi-bin folder contains the Python code that will make the magic happen.
 
 To run this software you need to configure Apache 2 properly! I've included a sample configuration to rewrite the URLs. Be sure that
-the rewrite module of Apache is ENABLE!
+the rewrite module of Apache is ENABLED!
 
 In the /etc/...whatever.../site-enable  folder; edit the configuration file as follow:
 
@@ -48,7 +48,31 @@ In the /etc/...whatever.../site-enable  folder; edit the configuration file as f
 	    Order allow,deny
 	    Allow from all
 	</Directory>
-## This will allow to rewrite redirect any request to the webserver to to right webpage ##
+## This will allow to rewrite redirect any request to the webserver to right webpage ##
+
+
+########################
+# SQLite configuration #
+########################
+
+To make it work without any changes you have to create a SQLite DB.
+
+The structure of the database is:
+
+Name |   Type  |   null   |  key  |
+--------------------------------------
+id 	 | INTEGER | not null | primary key
+url  | TEXT
+hash | TEXT
+
+
+Use Firefox SQLite Manager to configure the DB easily 
+
+
+
+
+
+
 
 EOF
 
