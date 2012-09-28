@@ -61,7 +61,7 @@ The structure of the database is:
 
 Name |   Type  |   null   |  key  |
 --------------------------------------
-id 	 | INTEGER | not null | primary key
+id   | INTEGER | not null | primary key
 url  | TEXT
 hash | TEXT
 
